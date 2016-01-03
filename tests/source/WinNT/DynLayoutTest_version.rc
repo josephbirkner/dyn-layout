@@ -1,0 +1,66 @@
+#define APSTUDIO_READONLY_SYMBOLS
+#include "afxres.h"
+
+
+// -----------------------------------------------------------------------------------
+// Deutsch (Deutschland) resources
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+
+// -----------------------------------------------------------------------------------
+// Version
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 5,51,0,0
+ PRODUCTVERSION 5,51,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "HUP AG\0"
+#ifdef _DEBUG
+            VALUE "FileDescription", "KundeLogikTest.dll ( Debug-Version )\0"
+#else
+            VALUE "FileDescription", "KundeLogikTest.dll\0"
+#endif
+            VALUE "hupSource",        "svn://hupldev/vl/version/vl/5.51\0"
+            VALUE "hupRevision",      "18238\0"
+            VALUE "hupModul",         "\0"
+            VALUE "FileVersion",      "5, 51, 0, 0\0"
+            VALUE "InternalName",     "KundeLogikTest.dll\0"
+            VALUE "LegalCopyright",   "© 1999-2011 HUP AG\0"
+            VALUE "LegalTrademarks",  "hup\0"
+            VALUE "OriginalFilename", "KundeLogikTest.dll\0"
+            VALUE "PrivateBuild",     "\0"
+            VALUE "ProductName",      "unique publishing\0"
+            VALUE "ProductVersion",   "5, 51\0"
+            VALUE "SpecialBuild",     "\0"
+#ifdef _DEBUG
+            VALUE "Include", "C:\\DEV9\\VC\\INCLUDE;C:\\DEV9\\VC\\ATLMFC\\INCLUDE\\;C:\\MSSDK\\DIRECTX\\INCLUDE\\;E:\\DEVELOP;E:\\DEVELOP\\INCLUDE;E:\\DEVELOP\\INCLUDE\\WRAPPER\\WINNT;E:\\DEVELOP\\INCLUDE\\TOOLS;E:\\DEVELOP\\INCLUDE\\TOOLS\\ORACLE;E:\\DEVELOP\\INCLUDE\\TOOLS\\XERCESC;E:\\DEVELOP\\BASE\\ZAPP3_NT;E:\\DEVELOP\\BASE\\ZAPP3_NT\\ZAPPH;E:\\DEVELOP\\INCLUDE\\OBJECTIVETOOLKIT;E:\\DEVELOP\\INCLUDE\\TOOLS\\OBJECTIVETOOLKIT\\FOUNDATION\\COMPATIBILITY\\COMMON;E:\\DEVELOP\\INCLUDE\\TOOLS\\OBJECTIVETOOLKIT\\FOUNDATION\\COMPATIBILITY\\MVC;E:\\DEVELOP\\INCLUDE\\TOOLS\\OBJECTIVETOOLKIT;E:\\DEVELOP\\INCLUDE\\TOOLS\\OBJECTIVETOOLKIT\\TOOLKIT;\0"
+            VALUE "Lib",     "C:\\DEV9\\VC\\ATLMFC\\LIB\\;C:\\DEV9\\VC\\PLATFORMSDK\\LIB\\;C:\\DEV9\\VC\\LIB\\;C:\\MSSDK\\DIRECTX\\LIB\\X86;E:\\DEVELOP\\LIB\\WINNT;E:\\DEVELOP\\LIB\\WINNT\\TOOLS\0"
+#endif
+
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif // !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+
